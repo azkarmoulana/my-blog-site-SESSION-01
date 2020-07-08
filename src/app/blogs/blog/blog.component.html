@@ -1,0 +1,12 @@
+<div class="blog-card">
+  <h5 class="blog-title">
+    {{ blog.title }}
+  </h5>
+  <span> {{ blog.date | date }} </span>
+  <div class="blog-cover-image">
+    <img src="{{ blog.imgUrl }}" alt="blog-img" />
+  </div>
+  <p class="blog-desc">
+    {{ blog.description }}
+  </p>
+</div>
